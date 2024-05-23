@@ -1,0 +1,17 @@
+body {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.paragraph {
+  margin: 40px;
+  padding: 20px;
+}
+
+.paragraph-default {
+  background-color: #f5f5f5;
+}
+
+.paragraph-highlighted {
+  background-color: #f0cce2;
+}

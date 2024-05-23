@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 4.5rem;
+}
+
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  
+  text-decoration: none;
+  color: black;
+  
+}
+
+.header .logo h1 {
+  font-weight: 800;
+  font-size: 2rem;
+
+}
+
+.header nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.header nav .menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+
+  
+}
+
+.menu li a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 1rem .6rem; /* O padding já está no link, o hover vai apenas fazer com que a background dele apareça com outra cor */
+  border-radius: .8rem;
+  transition: background-color .3s ease-in-out;
+  
+  
+}
+
+.menu li:hover a {
+  background-color: #5BC241;
+  color: white;
+}
+
+
+
+.menu li a.btn {
+  background-color: #5BC241;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.menu li a.btn:hover {
+  background-color: #2b9211;
+}
+
+
