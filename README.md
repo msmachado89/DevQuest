@@ -2,8 +2,7 @@
 
 ## Exercícios
 
-- **HTML e CSS Básico**
-[(https://github.com/msmachado89/DevQuest/tree/main/exercises/html-e-css-basico)]
+- [**HTML e CSS Básico**](https://github.com/msmachado89/DevQuest/tree/main/exercises/html-e-css-basico)
 
 - **CSS Avançado - Flexbox**
 [(https://github.com/msmachado89/DevQuest/tree/main/exercises/css-avancado-flexbox)]
