@@ -10,22 +10,35 @@
 /* GENERALS */
 html {
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
 
-
-/* STYLE */
-span {
+.module-name {
   margin-bottom: 2rem;
 }
 
+.exercise-id {
+  margin-bottom: 3rem;
+}
+
+/* STYLE */
 body {
   padding: 5rem;
-  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.groceries-list {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
-  /* align-items: center; */
-  margin-left: 40%;
+
+}
+
+h3, ul li, p {
+  font-size: 2.4rem;
 }
 
 ul li {
