@@ -1,0 +1,168 @@
+/* MAIN GAP ADJUST and WRAPPER PADDING CORRECTION */
+@media (max-width: 1232px) {
+  /* MAIN/HERO */
+  .main {
+    gap: 4.4rem;
+  }
+}
+
+@media (max-width: 952px) {
+  /* WRAPPER */
+  .wrapper {
+    padding-inline: 0;
+  } 
+  /*Faz com que os links das redes sociais não avancem tanto para dentro do layout em larguras menores*/
+
+  /* MAIN/HERO */
+  .main {
+    gap: 3.4rem;
+  }
+}
+
+
+
+
+/* !!! TABLET HERE !!! */
+
+@media (max-width: 834px) {
+  /* WRAPPER */
+  body {
+    background: url(../images/bg-mobile.svg) no-repeat center/cover fixed;
+    background-color: var(--clr-bg);
+  }
+
+  .wrapper {
+    height: auto;
+    padding: 4rem 0;
+    margin: 2.2rem auto;
+  }
+
+  /* HEADER */
+  .header .logo {
+    /* width: 100%; */
+    width: clamp(160px, 35vw, 100%);
+    margin-bottom: 3.6rem;
+  }
+
+  /* MAIN/HERO */
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main .mockups {
+    width: 98%;
+    width: clamp(200px, 80vw, 600px);
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 6.4rem;
+    align-items: center;
+  }
+
+  .main .content .heading {
+    /* font-size: 4.8rem; */
+    font-size: clamp(2.4rem, 4vw, 4.8rem);
+    margin-bottom: 2.6rem;
+  }
+
+  .main .content .description {
+    /* font-size: 3.2rem; */
+    font-size: clamp(1.6rem, 2vw, 3.2rem);
+    margin-bottom: 4.6rem;
+    line-height: 1.6;
+  }
+
+  /* MAIN/HERO - Content - Button */
+  .main .content .register-btn {
+    font-size: 2.4rem;
+    font-size: clamp(1.6rem, 1vw, 2.4rem);
+    padding: 1em 6.4em;
+  }
+
+  /* SOCIAL LINKS */
+  .socials {
+    margin-top: 11rem;
+    gap: 2.2rem;
+    align-self: center;
+  }
+
+  .socials .social {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  .socials .facebook {
+    font-size: 2.2rem;
+  }
+
+  .socials .twitter {
+    font-size: 2.2rem;
+  }
+
+  .socials .instagram {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+
+/* !!! MOBILE HERE !!! */
+@media (max-width: 425px) {
+  /* WRAPPER */
+  .wrapper {
+    padding: 4rem 0;
+  }
+
+  /* HEADER */
+  .header .logo {
+    /* width: 60%; */
+    margin-bottom: 1.6rem;
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 3rem;
+  }
+
+  .main .content .heading {
+    font-size: 2.6rem;
+  }
+
+  .main .content .description {
+    font-size: 1.8rem;
+  }
+
+  /* MAIN/HERO - Content - Button */
+  .main .content .register-btn {
+    font-size: 1.6rem;
+    padding: 1.2rem 8rem;
+  }
+
+  /* SOCIAL LINKS */
+  .socials {
+    margin-top: 8rem;
+  }
+
+  .socials .social {
+    width: 3.4rem;
+    height: 3.4rem;
+    border: 1px solid var(--clr-text);
+  }
+
+  .socials .facebook {
+    font-size: 1.6rem;
+  }
+
+  .socials .twitter {
+    font-size: 1.6rem;
+  }
+
+  .socials .instagram {
+    font-size: 1.8rem;
+  }
+}
