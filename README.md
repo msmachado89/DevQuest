@@ -11,4 +11,4 @@
 
 ## Quests
 
-- [**HTML + CSS Avançado**]([https://github.com/msmachado89/DevQuest](https://github.com/msmachado89/DevQuest/tree/main/quests/html-e-css-avancado/projeto-huddle-base))
+- [**HTML + CSS Avançado**](https://github.com/msmachado89/DevQuest/tree/main/quests/html-e-css-avancado/projeto-huddle-base)
